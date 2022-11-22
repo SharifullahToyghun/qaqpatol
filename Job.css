@@ -1,0 +1,80 @@
+.container {
+    max-width: 900px;
+    height: 610px;
+    background-color: white#ccc;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: auto;
+}
+.Job_application_control {
+    max-width: 550px;
+    height: 550px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+  overflow: auto;
+  background-color: pink;
+}
+.small {
+    font-size: 15px;
+}
+
+.formContainer {
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+} 
+
+
+.form_controller {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+    overflow: auto;
+
+}
+input, label, textarea, select {
+    font-size: 15px;
+    margin: px;
+    font-weight: bold;
+}
+.textarea_controller {
+   grid-column: 1/ span 2;
+flex-direction: column;
+display: flex;
+}
+.cv {
+    padding: 10px;
+}
+.button_control {
+    display: flex;
+    justify-content: end;
+    
+}
+.bautton_controler {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: red;
+    border: transparent 10px;
+}
+.bautton_controler:hover {
+    color: white;
+    font-size: 25px;
+    background-color: green;
+}
+.subjexct {
+    text-align: center;
+    text-decoration: underline green; 
+    background-color: yellowgreen;
+    align-self: flex-start;
+    
+}
+input
+:focus {
+    outline: red;
+}
+
